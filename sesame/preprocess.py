@@ -4,6 +4,7 @@ Reads XML files containing FrameNet 1.$VERSION annotations, and converts them to
 '''
 import codecs
 import os.path
+#from importlib import reload
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
